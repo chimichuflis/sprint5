@@ -1,0 +1,39 @@
+h1 {
+  font-size: 1.7rem;
+}
+header {
+  background-image: url("icons/bg-curvy-mobile.svg"),
+    linear-gradient(
+      hsl(217, 28%, 15%),
+      hsl(217, 28%, 15%) 57%,
+      hsl(218, 28%, 13%) 57%
+    );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  padding-bottom: 6rem;
+}
+header img {
+  width: 100%;
+  padding: 2.5rem 0rem;
+}
+header p {
+  padding: 0.6rem;
+}
+header button {
+  color: white;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-size: 1.1rem;
+  padding: 1.2rem;
+  margin: 1rem 0;
+  border-radius: 2rem;
+  border: none;
+  display: block;
+  width: 75%;
+}

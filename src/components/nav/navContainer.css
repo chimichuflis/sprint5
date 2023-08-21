@@ -1,0 +1,26 @@
+nav {
+  background-color: hsl(217, 28%, 15%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+nav img {
+  height: 2rem;
+}
+nav ul {
+  font-size: 1rem;
+  list-style: none;
+  display: flex;
+  gap: 1.3rem;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+nav a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
