@@ -2,7 +2,7 @@ h1 {
   font-size: 1.7rem;
 }
 header {
-  background-image: url("icons/bg-curvy-mobile.svg"),
+  background-image: url("/icons/bg-curvy-mobile.svg"),
     linear-gradient(
       hsl(217, 28%, 15%),
       hsl(217, 28%, 15%) 57%,
