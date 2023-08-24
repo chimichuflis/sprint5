@@ -1,0 +1,13 @@
+.info-card {
+  width: 95%;
+  font-size: 1.1rem;
+  margin: 1rem auto;
+  padding-bottom: 2rem;
+}
+@media screen and (min-width: 700px) {
+  .info-card {
+    width: 60%;
+    display: flex;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,71 @@
+.early-access {
+  position: relative;
+}
+.early-access form {
+  position: relative;
+  width: 90%;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: hsl(217, 28%, 15%);
+}
+.early-access::before {
+  content: "";
+  position: absolute;
+  background-color: hsl(216, 53%, 9%);
+  left: 0;
+  width: 100%;
+  top: 50%;
+  height: 50%;
+}
+.early-access h3 {
+  padding-top: 1rem;
+}
+.early-access p {
+  width: 85%;
+  margin: 1rem auto;
+  padding-bottom: 0.5rem;
+}
+.early-access input {
+  margin: 1.5rem auto;
+  display: block;
+  width: 85%;
+  padding: 1.2rem 2rem;
+  border: none;
+  border-radius: 3rem;
+}
+.early-access input::placeholder {
+  color: grey;
+}
+.early-access input[type="submit"] {
+  color: white;
+  text-shadow: 1px 0 white;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 700px) {
+  .early-access form {
+    padding: 2rem 5rem;
+    width: 60%;
+  }
+  .early-access div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .early-access input {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .early-access input[type="email"] {
+    min-width: 12rem;
+    flex-grow: 100;
+    width: 10%;
+  }
+  .early-access input[type="submit"] {
+    min-width: 12rem;
+    width: 10%;
+  }
+}

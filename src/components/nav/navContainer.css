@@ -7,13 +7,13 @@ nav {
   padding: 2rem 1rem;
 }
 nav img {
-  height: 2rem;
+  height: 1.8rem;
 }
 nav ul {
-  font-size: 1rem;
+  font-size: 0.8rem;
   list-style: none;
   display: flex;
-  gap: 1.3rem;
+  gap: 1.6rem;
 }
 nav a {
   text-decoration: none;

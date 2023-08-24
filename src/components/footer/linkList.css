@@ -1,0 +1,17 @@
+.linkList {
+  list-style: none;
+  font-size: 1.15rem;
+  padding: 1rem 1rem;
+}
+.linkList li {
+  margin: 1rem 0;
+}
+.linkList a {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (min-width: 700px) {
+  .linkList {
+    padding: 0;
+  }
+}

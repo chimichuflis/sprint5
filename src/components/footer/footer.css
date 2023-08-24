@@ -1,3 +1,15 @@
 footer {
   background-color: hsl(216, 53%, 9%);
+  padding: 4rem 5%;
+}
+footer .logo {
+  height: 3.5rem;
+  margin: 2rem 1rem;
+}
+@media screen and (min-width: 700px) {
+  footer .footer-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
 }

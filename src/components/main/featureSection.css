@@ -1,0 +1,11 @@
+.feature-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+@media screen and (min-width: 600px) {
+  .feature-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

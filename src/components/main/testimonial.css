@@ -1,0 +1,15 @@
+.testimonial {
+  font-size: 0.8rem;
+  background-color: hsl(219, 30%, 18%);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 0.3rem;
+}
+.testimonial-user {
+  padding-top: 1rem;
+  display: flex;
+}
+.testimonial-user img {
+  border-radius: 50%;
+  height: 2rem;
+  margin-right: 1rem;
+}

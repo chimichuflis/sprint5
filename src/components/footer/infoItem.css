@@ -1,0 +1,10 @@
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  padding-right: 0rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.15rem;
+}
+.info-item img {
+  margin: 0.3rem 1.8rem 0 0;
+}
