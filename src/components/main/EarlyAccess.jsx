@@ -1,5 +1,15 @@
+import { useState } from "react";
 import "./earlyAccess.css";
 export default function () {
+  const [emailOk, setEmailOk] = useState(true);
+  function checkValidEmail(e) {
+    setEmailOk(!e.target.validity.typeMismatch);
+  }
+  /*
+  formNoValidate: false
+  validity
+  required
+  */
   return (
     <section className="early-access">
       <form>
@@ -10,7 +20,16 @@ export default function () {
           be happy to help you.
         </p>
         <div>
-          <input type="email" placeholder="email@example.com" />
+          <div className="email-container">
+            <input
+              required
+              type="email"
+              placeholder="email@example.com"
+              onInput={checkValidEmail}
+            />
+            {!emailOk && <p className="invalid-email">invalid email</p>}
+          </div>
+
           <input type="submit" value="Get Started For Free" />
         </div>
       </form>

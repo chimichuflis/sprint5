@@ -1,6 +1,16 @@
 .early-access {
   position: relative;
 }
+.email-container {
+  position: relative;
+}
+.invalid-email {
+  color: red;
+  position: absolute;
+  text-align: left;
+  bottom: -3rem;
+  left: 4.5rem;
+}
 .early-access form {
   position: relative;
   width: 90%;
@@ -48,6 +58,10 @@
   .early-access form {
     padding: 2rem 5rem;
     width: 60%;
+  }
+  .invalid-email {
+    bottom: -1.5rem;
+    left: 1rem;
   }
   .early-access div {
     display: flex;

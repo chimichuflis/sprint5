@@ -3,7 +3,6 @@ import Footer from "./components/footer/Footer";
 import HeaderContainer from "./components/header/HeaderContainer";
 import MainContainer from "./components/main/MainContainer";
 import NavContainer from "./components/nav/NavContainer";
-import DevContainer from "./components/DevContainer.jsx";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <HeaderContainer />
       <MainContainer />
       <Footer />
-      <DevContainer />
     </>
   );
 }
